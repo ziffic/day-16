@@ -1,15 +1,15 @@
-# from turtle import Turtle, Screen
-#
-# sven = Turtle()
-# my_screen = Screen()
-# sven.shape("turtle")
-# sven.color("black", "red")
-# sven.forward(100)
-#
-# print(my_screen.canvheight)
-# my_screen.exitonclick()
-
 from prettytable import PrettyTable
+from turtle import Turtle, Screen
+
+sven = Turtle()
+my_screen = Screen()
+sven.shape("turtle")
+sven.color("black", "red")
+sven.forward(100)
+
+print(my_screen.canvheight)
+my_screen.exitonclick()
+
 table = PrettyTable()
 table.align = "l"
 table.field_names = ["Player Name", "Season 1994", "Season 1995", "Season 1996"]
